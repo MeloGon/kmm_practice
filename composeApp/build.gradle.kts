@@ -39,6 +39,7 @@ kotlin {
             implementation(compose.material)
             api(compose.foundation)
             api(compose.animation)
+            api(compose.materialIconsExtended)
             api("moe.tlaster:precompose:1.6.1")
             api("moe.tlaster:precompose-viewmodel:1.6.1")
             implementation(compose.ui)
